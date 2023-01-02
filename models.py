@@ -118,7 +118,7 @@ def main():
     # Uncomment to run the main experiment on a balanced dataset with stop words:
     # main_experiment(np.array(["AD"]*43 + ["EA"]*43), np.random.choice(ad_data, 43), ea_data, False)
     # Without stop words:
-    main_experiment(np.array(["AD"]*43 + ["EA"]*43), np.random.choice(ad_data, 43), ea_data, True)
+    # main_experiment(np.array(["AD"]*43 + ["EA"]*43), np.random.choice(ad_data, 43), ea_data, True)
     # -------------------------------------------------------
     # Uncomment to run the experiment on only the stop words:
     # stopwords_experiment(labels)
