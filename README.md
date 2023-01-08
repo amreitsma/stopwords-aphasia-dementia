@@ -12,7 +12,7 @@ This project makes use of several external Python libraries, which are listed be
 - pylangacq
 - nltk
 
-Please ensure all of these libraries are installled before attemtping to run any of the files in this project.
+Please ensure all of these libraries are installled before attempting to run any of the files in this project.
 
 ## Running the experiments
 
