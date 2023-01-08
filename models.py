@@ -116,6 +116,8 @@ def main():
     # main_experiment(labels, ad_data, ea_data, True)
     # -------------------------------------------------------
     # Uncomment to run the main experiment on a balanced dataset with stop words:
+    # NB: don't uncomment line 121 and line 123 at the same time, somehow this leads
+    # to slightly different results for the complementNB model.
     # main_experiment(np.array(["AD"]*43 + ["EA"]*43), np.random.choice(ad_data, 43), ea_data, False)
     # Without stop words:
     # main_experiment(np.array(["AD"]*43 + ["EA"]*43), np.random.choice(ad_data, 43), ea_data, True)
